@@ -1,0 +1,8 @@
+<!ELEMENT color1 (#PCDATA) >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT p2 (name,color1) >
+<!ELEMENT p1 (name,color1) >
+<!ELEMENT person (p1,p2)>
+
+<!ATTLIST p1 id2 (apple|orange) #REQUIRED>
+        <!ATTLIST person id1 CDATA #IMPLIED>
